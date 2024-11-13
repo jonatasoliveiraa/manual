@@ -26,6 +26,9 @@ body > div:first-child {
   position: absolute;
   inset: 0;
 }
+body > div:last-child {
+  margin-block: auto;
+}
 h2 {
   margin-bottom: 8rem;
 }
