@@ -56,7 +56,6 @@ ul {
   display: grid;
   padding: 0;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
   align-items: end;
 }
 
@@ -64,6 +63,7 @@ ul li {
   list-style: none;
   text-align: justify;
   margin: 0;
+  width: 100%;
 }
 
 ul li div {
