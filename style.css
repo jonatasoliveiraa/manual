@@ -6,17 +6,27 @@
 
 html {
   font-family: "Inter", sans-serif;
+  height: 100%;
   overflow-x: hidden;
 }
 
 body {
+  display: flex;
   max-width: 50rem;
   text-align: center;
   margin: auto;
   overflow-x: hidden;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  position: relative;
 }
 
-h2{
+body > div:first-child {
+  position: absolute;
+  inset: 0;
+}
+h2 {
   margin-bottom: 8rem;
 }
 
