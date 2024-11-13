@@ -58,12 +58,14 @@ ul {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   align-items: end;
+  justify-self: center;
 }
 
 ul li {
   list-style: none;
   text-align: justify;
   margin: 0;
+  width: 90%;
 }
 
 ul li div {
