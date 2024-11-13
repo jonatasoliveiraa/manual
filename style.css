@@ -57,13 +57,14 @@ ul {
   padding: 0;
   grid-template-columns: 1fr 1fr;
   align-items: end;
+  justify-items: center;
 }
 
 ul li {
   list-style: none;
   text-align: justify;
   margin: 0;
-  width: 100%;
+  width: 90%;
 }
 
 ul li div {
