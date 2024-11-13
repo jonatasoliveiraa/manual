@@ -18,14 +18,14 @@ body {
   overflow-x: hidden;
   flex-direction: column;
   height: 100%;
-  justify-content: center;
-  position: relative;
+  /* justify-content: center; */
+  /* position: relative; */
 }
 
-body > div:first-child {
+/* body > div:first-child {
   position: absolute;
   inset: 0;
-}
+} */
 body > div:last-child {
   margin-block: auto;
 }
