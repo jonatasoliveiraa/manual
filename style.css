@@ -58,7 +58,7 @@ ul {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   align-items: end;
-  justify-self: center;
+  justify-items: center;
 }
 
 ul li {
