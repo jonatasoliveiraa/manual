@@ -12,6 +12,7 @@ body {
   max-width: 50rem;
   text-align: center;
   margin: auto;
+  overflow-x: hidden;
 }
 
 img {
